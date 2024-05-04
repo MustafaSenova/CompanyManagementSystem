@@ -1,0 +1,43 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>DunderMifflin</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>DunderMifflin</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.eps</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="DunderMifflin.csproj" File="DunderMifflin.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.cs">Form1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.cs">Form1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <Folder Name="Forms" TargetFolderName="Forms">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ForgotPassword.cs">ForgotPassword.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ForgotPassword.Designer.cs">ForgotPassword.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ForgotPassword.resx">ForgotPassword.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InformationsForm.cs">InformationsForm.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InformationsForm.Designer.cs">InformationsForm.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InformationsForm.resx">InformationsForm.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LoginForm.cs">LoginForm.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LoginForm.Designer.cs">LoginForm.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LoginForm.resx">LoginForm.resx</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
